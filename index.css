@@ -100,17 +100,28 @@
 .main2 {
     display: flex;
     max-width: 80%;
+    flex-direction: row;
+    gap: 20px;
     justify-content: center;
     align-items: center;
     margin-left: 10%;
     height: 30vh;
     padding-top: 30px;
 
-
-
-
 }
 
+.text1{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    text-align: end;
+}
 
 .text1 p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -119,15 +130,7 @@
     font-weight: 500;
 }
 
-.icon {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: 20px;
-    text-align: end;
 
-
-}
 
 textarea::placeholder {
     padding: 38px 10px;
@@ -143,6 +146,7 @@ textarea::placeholder {
     resize: none;
     margin: 4px;
     outline: none;
+    
 
 }
 
@@ -217,6 +221,10 @@ textarea::placeholder {
         max-width: 100%;
     }
 
+    .logo img{
+        width: 50%;
+    }
+
     .main {
         display: flex;
         flex-direction: column-reverse;
@@ -232,6 +240,8 @@ textarea::placeholder {
         width: 100%;
 
     }
+
+ 
 
     #textbox1 {
         width: 100%;
